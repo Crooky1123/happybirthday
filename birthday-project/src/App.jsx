@@ -336,7 +336,7 @@ export default function BirthdayWebsite() {
             <div className="soft-card rounded-[30px] p-4">
               <iframe
                 style={{ borderRadius: "20px" }}
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
+                src="https://open.spotify.com/embed/playlist/2oaHuO2Wc0puRvOUXuaQP1?utm_source=generator&si=91f8f9fe6ab04aa0"
                 width="100%"
                 height="352"
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"

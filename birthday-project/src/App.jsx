@@ -6,17 +6,17 @@ const PASSWORD = "250512";
 const slides = [
   {
     title: "Momen pertama kita ketemu",
-    image: "https://placehold.co/400x500/png",
+    image: "foto1.jpeg",
     text: "aku ga ekspek kamu ternyata secakep itu jir kalo irl ><",
   },
   {
     title: "Foto pertama kamu yang aku ambil!!",
-    image: "https://placehold.co/400x500/png",
-    text: "sumpah pertama kali kita ngedate aku ngerasa kamu itu orang yan spesial bangett, aku gamau kita pisah atau putus waktu itu <3",
+    image: "foto2.jpeg",
+    text: "sumpah pertama kali kita ngedate aku ngerasa kamu itu orang yang spesial bangett, aku gamau kita pisah atau putus waktu itu <3",
   },
   {
     title: "Photbooth kitaaa!!!",
-    image: "https://placehold.co/400x500/png",
+    image: "foto3.jpeg",
     text: "We are so sweet babe, kita harus foto-foto lagi yaa!",
   },
 ];
@@ -112,7 +112,7 @@ export default function BirthdayWebsite() {
         <div className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
           <div className="absolute bottom-0 left-0 w-full opacity-70 flex justify-center pointer-events-none">
             <img
-              src="/holymoly.jpeg"
+              src="holymoly.jpeg"
               alt="cats"
               className="w-[900px] max-w-full"
             />
@@ -132,8 +132,7 @@ export default function BirthdayWebsite() {
             </div>
 
             <h1 className="text-3xl md:text-4xl font-bold text-center leading-snug mb-8 floaty">
-              Hayooo ngapainn<br />
-              kalo mau tau coba tebak passwordnya!
+              Hai Kame! Masukin Password dulu ya kalo mau liat isinya :3
             </h1>
 
             <div className="flex justify-center gap-3 mb-8">
@@ -193,11 +192,11 @@ export default function BirthdayWebsite() {
               >
                 <div className="flex items-center top-0">
                   <img
-                    src="/public/catbutt.jpeg"
+                    src="catbutt.jpeg"
                     alt="cat"
                     className="w-10 h-10 object-contain floaty"
                   />
-                  <span className="ml-2">yah passwordnya salah, coba lagi ya!</span>
+                  <span className="ml-2 object-contain floaty">yah passwordnya salah, coba lagi ya!</span>
                 </div>
               </motion.div>
             )}
@@ -287,12 +286,12 @@ export default function BirthdayWebsite() {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-6xl font-bold text-center mb-16 floaty"
           >
-            Happy Birthday Karmel sayangg ✨
+            Happy Relationship Anniversary, Kame! 🎉💕
           </motion.h1>
 
-          <div className="relative w-[320px] h-[340px] md:w-[460px] md:h-[420px] mb-20">
-            <img
-              src="https://placehold.co/250x320/png"
+          <div className="relative w-[220px] h-[260px] md:w-[420px] md:h-[480px] mb-20">
+            {/* <img
+              src="https://placehold.co/240x300/png"
               alt="photo1"
               className="absolute left-0 top-12 rotate-[-10deg] rounded-[25px] border-8 border-white shadow-2xl"
             />
@@ -301,32 +300,53 @@ export default function BirthdayWebsite() {
               src="https://placehold.co/250x320/png"
               alt="photo2"
               className="absolute right-0 top-0 rotate-[10deg] rounded-[25px] border-8 border-white shadow-2xl"
-            />
+            /> */}
 
             <img
-              src="https://placehold.co/260x330/png"
+              src="birthdayphoto.jpg"
               alt="photo3"
-              className="absolute left-1/2 -translate-x-1/2 top-16 rounded-[25px] border-8 border-white shadow-2xl z-10"
+              className="absolute left-1/2 -translate-x-1/2 top-[-50px] rounded-[25px] border-8 border-white shadow-2xl z-10"
             />
           </div>
 
           <motion.div
             animate={{ y: [0, -5, 0] }}
             transition={{ duration: 3, repeat: Infinity }}
-            className="soft-card rounded-[35px] p-8 md:p-12 max-w-3xl w-full relative"
+            className="soft-card rounded-[35px] p-8 md:p-12 max-w-3xl w-full relative top-5"
           >
             <div className="absolute -top-5 right-5 text-4xl">🐾</div>
 
             <h2 className="text-3xl font-bold text-center mb-6">
-              Little Note For You 💌
+              A little Note for My Little Kamee 💌
             </h2>
 
             <p className="text-lg leading-loose text-center">
-              Tulis pesan panjang dan ucapan ulang tahun kamu di sini nanti yaa.
-              Kamu bisa isi semuanya sesuka hati supaya terasa lebih personal,
-              hangat, dan manis ✨🌷
+              Sayang, aku cuma mau bilang makasih banyak udah jadi bagian dari hidup aku selama 1 tahun ini. Aku ga pernah nyangka bakal seberuntung ini bisa kenal dan deket sama kamu. Kamu itu orang yang super spesial buat aku, dan aku bener-bener bersyukur bisa punya kamu di sisi aku. Aku harap kita bisa terus bareng-bareng, ngelewatin semua suka duka, dan bikin banyak kenangan indah lagi ke depannya. I love you so much, Kame!
+            </p>
+            <p className="text-lg leading-loose text-center mt-4">
+              Walaupun akhir-akhir ini kita banyak masalah, aku yakin kita bisa lewatin semua itu bareng-bareng. Aku percaya sama kita, dan aku yakin kita bisa jadi lebih kuat lagi setelah ini. Aku ga mau kehilangan kamu, dan aku ga mau kita putus cuma karena masalah kecil. Aku harap kamu juga ngerasa hal yang sama, dan kita bisa terus berjuang buat hubungan kita ini. Aku sayang kamu banget, Kame!
             </p>
           </motion.div>
+
+          <div className="mt-10 w-full max-w-3xl">
+            <h2 className="text-2xl font-bold text-center mb-5 floaty">
+              A Playlist for You!! 🎵
+            </h2>
+
+            <div className="soft-card rounded-[30px] p-4">
+              <iframe
+                style={{ borderRadius: "20px" }}
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M"
+                width="100%"
+                height="352"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"
+                title="Spotify Playlist"
+              />
+            </div>
+      </div>
+
+          {/* <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4rNIY0fUp9cNrHAz1OFkHG?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> */}
 
           <div className="mt-16 opacity-70 text-center">
             <p className="floaty text-lg">
